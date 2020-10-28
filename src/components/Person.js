@@ -5,6 +5,7 @@ function Person({person}) {
         <div>
             <h2>
             I am {person.name} of age {person.age} with skill {person.skill} with ID {person.id}
+            {/* I am {person} */}
         </h2>
         </div>
     )

@@ -19,11 +19,18 @@ import NameList2WithIDData from './components/NameList2WithIDData';
 import NameList3WithComponentAndProps from './components/NameList3WithComponentAndProps';
 import NameList4WithoutID from './components/NameList4WithoutID';
 import NameList4WithoutIDUsingIndex from './components/NameList4WithoutIDUsingIndex';
+import Stylesheet from './components/Stylesheet'
+import InLine from './components/InLine';
+import Forms from './components/forms/Forms';
+ 
 
 function App() {
   return (
     <div className="App">
-      <NameList4WithoutIDUsingIndex />
+      <Forms />
+      {/* <InLine /> */}
+      {/* <Stylesheet /> */}
+      {/* <NameList4WithoutIDUsingIndex /> */}
       {/* <NameList4WithoutID /> */}
       {/* <NameList3WithComponentAndProps /> */}
 
