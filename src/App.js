@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { PureComponent } from 'react';
 import logo from './logo.svg';
 import './App.css';
 import Greet from './components/Greet'
@@ -22,12 +22,25 @@ import NameList4WithoutIDUsingIndex from './components/NameList4WithoutIDUsingIn
 import Stylesheet from './components/Stylesheet'
 import InLine from './components/InLine';
 import Forms from './components/forms/Forms';
- 
+import FragmentDemoOne from './components/fragments/FragmentDemoOne';
+import Table from './components/fragments/Table' 
+import LifeCycleUpdateA from './components/ComponentLifecycle/LifeCycleUpdateA';
+import LifeCycleA from './components/ComponentLifecycle/LifeCycleA';
+import PureComp from './components/pure/PureComp';
+import ParentComp from './components/pure/ParentComp';
 
 function App() {
   return (
     <div className="App">
-      <Forms />
+      <ParentComp />
+      {/* <PureComp /> */}
+      {/* <LifeCycleA /> */}
+      {/* <LifeCycleUpdateA /> */}
+
+      {/* <Table /> */}
+      
+      {/* <FragmentDemoOne /> */}
+      {/* <Forms /> */}
       {/* <InLine /> */}
       {/* <Stylesheet /> */}
       {/* <NameList4WithoutIDUsingIndex /> */}

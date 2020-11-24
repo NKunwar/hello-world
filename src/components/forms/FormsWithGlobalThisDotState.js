@@ -40,7 +40,7 @@ class FormsWithGlobalThisDotState extends Component {
     render() {
 
         // <================================================================>
-        const { name, comments, topic } = this.state // this will globally define this.state for name, 
+        const { username, comments, topic } = this.state // this will globally define this.state for name, 
         // comments & topic, so we can truncate "this.state" part from "input type 'value' "
         // <================================================================>
 
