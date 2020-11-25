@@ -1,12 +1,11 @@
 import React, { Component } from 'react'
+import FRRef from './FRRef'
 
 class FRParentInput extends Component {
-
-    
     render() {
         return (
             <div>
-                <FRParentInput />
+                <FRRef />
                 <button>Focus Input</button>
             </div>
         )
