@@ -28,11 +28,18 @@ import LifeCycleUpdateA from './components/ComponentLifecycle/LifeCycleUpdateA';
 import LifeCycleA from './components/ComponentLifecycle/LifeCycleA';
 import PureComp from './components/pure/PureComp';
 import ParentComp from './components/pure/ParentComp';
+import RefsDemo from './components/refs/RefsDemo';
+import FocusInput from './components/refs/FocusInput';
+import FRParentInput from './components/refs/FRParentInput';
 
 function App() {
   return (
     <div className="App">
-      <ParentComp />
+      {/* <RefsDemo /> */}
+      {/* <FocusInput /> */}
+      <FRParentInput />
+
+      {/* <ParentComp /> */}
       {/* <PureComp /> */}
       {/* <LifeCycleA /> */}
       {/* <LifeCycleUpdateA /> */}
